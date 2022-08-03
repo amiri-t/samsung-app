@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+.navbar .logo img {
+  width: 140px;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+.navbar-links-container {
+  display: flex;
+}
+.navbar-links-container ul {
+  display: flex;
+  gap: 30px;
+}
+.navbar-links-container ul li {
+  list-style: none;
+  font-weight: 600;
+  padding: 6px;
+  cursor: pointer;
+}
+.navbar-links-container ul li:hover {
+  background-color: rgba(211, 211, 211, 0.589);
+  padding: 6px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.activeT {
+  background-color: lightgray;
+  padding: 6px;
+  border-radius: 5px;
+}
+.navbar-links .buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+}
+.navbar-links button {
+  padding: 5px 17px;
+  border: 2px solid black;
+  box-shadow: 0 0 8px 4px rgba(157, 96, 212, 0.5);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff94, #ff48f9af);
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar-links button:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48f9);
+  transition: 0.3s;
+}

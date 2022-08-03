@@ -1,0 +1,79 @@
+.products h1 {
+  font-size: 100px;
+  font-weight: 900;
+  opacity: 0.5;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(50, 89, 219, 0.575),
+    rgba(138, 39, 230, 0.904)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+}
+.s-series {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+}
+.s-series h4 {
+  color: gray;
+  font-size: 20px;
+}
+.shop-items {
+  display: flex;
+  gap: 1rem;
+}
+.shop-item img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.shop-item {
+  padding: 15px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+.shop-item:hover {
+  background-color: white;
+  transition: 0.3s;
+  box-shadow: 0px 0px 7px 5px gray;
+}
+.shop-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shop-item-title {
+  margin: 7px 0;
+  font-weight: bold;
+}
+.shop-item-btn {
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+}
+.note-series,
+.a-series {
+  margin-top: 3em;
+}
+.note-series h4,
+.a-series h4 {
+  color: gray;
+  font-size: 20px;
+}
+.nav-route {
+  color: black;
+  text-decoration: none;
+}

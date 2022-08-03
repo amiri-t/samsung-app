@@ -1,0 +1,35 @@
+.sidebar {
+  position: fixed;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(54, 95, 230, 0.575),
+    rgba(167, 94, 235, 0.904)
+  );
+  padding: 0px 20px;
+  top: 15%;
+  border-radius: 0 10px 10px 0;
+  left: 5%;
+}
+.sidebar .items {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .top,
+.center,
+.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 3px;
+}
+.sidebar .icon {
+  font-size: 27px;
+  margin: 7px 0;
+  color: white;
+  cursor: pointer;
+}
+.sidebar .icon:hover {
+  background: rgb(119, 63, 119);
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
